@@ -2,15 +2,14 @@
 
 Нативные клиенты Watermelon Messenger для iPhone, iPad и Mac (SwiftUI + shared API layer).
 
-Репозиторий расположен рядом с основным бэкендом и веб-клиентом:
+Отдельный репозиторий того же проекта:
 
-```
-Documents/
-├── melon-messenger/   # API, web, deploy
-├── melon-ios/         # этот репозиторий
-├── melon-android/
-└── melon-infra/
-```
+| Репозиторий | Назначение |
+|-------------|------------|
+| [melon-messenger](https://github.com/Pwatermelon/melon-messenger) | API, web, deploy |
+| [watermelon-ios](https://github.com/Pwatermelon/watermelon-ios) | iOS / macOS (этот) |
+| [watermelon-android](https://github.com/Pwatermelon/watermelon-android) | Android |
+| melon-infra | Инфраструктура (будущее) |
 
 ## Структура
 
